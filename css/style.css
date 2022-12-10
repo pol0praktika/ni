@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+  }
+
+
+
+
+.logo {
+    text-align: center;
+    padding: 18px 0px 26px;
+}
+
+
+
+.menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    padding: 1%;
+    background: #f6f6f6;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.list-inline {
+    text-align: center;
+    list-style: none;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    padding: 0;
+}
+
+.list-inline > li {
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.list-inline > li::before {
+    content: "\200B";
+    position: absolute;
+}
+
+
+.list-inline>li>a{
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    line-height: 18.4px;
+    font-family: Inter;
+    font-size: 12px;
+    padding-right: 30px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 0 5px;
+}
+
+.list-inline>li>a:hover {
+    border: 2px solid #028090;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+#home_page .header {
+    margin:0 auto;
+    margin-top: 132px;
+    width:min-content;
+    letter-spacing: 0em;   
+}
+
+#home_page .header>h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+*[id=header]:before {
+    display: block;
+    content: " ";
+    margin-top: -50px;
+    height: 50px;
+    visibility: hidden;
+  }
+
+  #home_page .subtitle
+  {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  #home_page .button>a
+  {
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    border:1px solid black;
+  }
+
+  #home_page .button>a:hover{
+    background-color: #0da6ba;
+    color: #ffffff;
+    border:none;
+  }
+  
+
+  #home_page .button{
+    margin:0 auto;
+    text-align: center;
+    margin-top: 84px;
+    width: 271px;
+    height: 44px;
+  }
+
+  #Company .header{
+    text-align: center;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border:1px solid #DAFFFB;
+    background: #DAFFFB;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 45px 45px 0px 0px;
+    margin-top: 200px
+  }
+
+
+  #Company .header>h2{
+    margin-top: -19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  #Company .subtitle >p{
+    margin-top: 100px;
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  #Company .subtitle >p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  *[id=Company]:before {
+    display: block;
+    content: " ";
+    margin-top: -50px;
+    height: 15px;
+    visibility: hidden;
+  }
+
+  #Company .advantages{
+    text-align: left;
+    height: 500px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border:1px solid #161A27;
+    background: #161A27;
+    border-radius: 45px 45px 45px 45px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: -35px;
+  }
+
+  #Company .advantages >h3{
+    padding-left: 130px;
+    padding-top: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
